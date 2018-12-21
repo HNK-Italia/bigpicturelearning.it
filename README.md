@@ -1,3 +1,5 @@
+Lavoriamo sulla cartella dist
+
 # [HTML5 Boilerplate](https://html5boilerplate.com/)
 
 [![Build Status](https://travis-ci.org/h5bp/html5-boilerplate.svg)](https://travis-ci.org/h5bp/html5-boilerplate)
@@ -72,7 +74,7 @@ or [HTML5 Boilerplate v5](https://github.com/h5bp/html5-boilerplate/tree/v5.0.0)
 ## Documentation
 
 Take a look at the [documentation table of contents](dist/doc/TOC.md).
-This documentation is bundled with the project which makes it 
+This documentation is bundled with the project which makes it
 available for offline reading and provides a useful starting point for
 any documentation you want to write about your project.
 
