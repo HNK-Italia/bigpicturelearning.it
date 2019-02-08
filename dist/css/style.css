@@ -2,9 +2,6 @@
     transition:0.5s;
     border:0px
 }
-.card:hover {
-    box-shadow:0 30px 70px rgba(0,0,0,.2);
-}
 .card .box {
     text-align:center;
     padding:20px;
@@ -134,4 +131,11 @@ height: 80vh;
 width: 100%;
 display: block;
 position: relative;
+background-position: center;
+}
+
+.img-background{
+  background-size: cover;
+  background-position: center;
+  height: 150px
 }
