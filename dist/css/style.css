@@ -137,5 +137,10 @@ background-position: center;
 .img-background{
   background-size: cover;
   background-position: center;
+}
+.img-background-little{
   height: 150px
+}
+.img-background-big{
+  height: 250px
 }
