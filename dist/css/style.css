@@ -60,6 +60,7 @@
 }
 .btn-danger{
  background-color: #TA453C;
+ transition: all ease 0.25s;
 }
 .ventipx{
   padding:20px;
@@ -138,9 +139,23 @@ background-position: center;
   background-size: cover;
   background-position: center;
 }
+
 .img-background-little{
-  height: 150px
+  height: 150px;
 }
+
 .img-background-big{
-  height: 250px
+  height: 250px;
+
+}
+
+.btn-danger:hover{
+  box-shadow: 0 2px 5px rgba(0,0,0,0.20), 0 5px 5px rgba(0,0,0,0.10);
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.card:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
