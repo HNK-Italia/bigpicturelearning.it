@@ -116,3 +116,22 @@
     width: 100%;
   }
 }
+
+.c-frase{
+  padding: 25px 0 25px 0;
+  color: #ffffff;
+  background-color: rgba(0,0,0,0.4);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.hero{
+background: url('https://picsum.photos/666/444') no-repeat;
+background-size: cover;
+height: 80vh;
+width: 100%;
+display: block;
+position: relative;
+}
