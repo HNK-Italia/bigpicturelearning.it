@@ -72,6 +72,9 @@
 .whitegreen span {
   color: white;
   }
+.scrittagreen span {
+  color: #1CA554;
+  }
 .backgroundred{
   background-color:Black;
   color:white;
@@ -129,6 +132,16 @@
 background: url('https://picsum.photos/1920/1080') no-repeat;
 background-size: cover;
 height: 80vh;
+width: 100%;
+display: block;
+position: relative;
+background-position: center;
+}
+
+.hero-minimo{
+background: url('https://picsum.photos/1920/1080') no-repeat;
+background-size: cover;
+height: 60vh;
 width: 100%;
 display: block;
 position: relative;
