@@ -149,6 +149,14 @@ position: relative;
 background-position: center;
 }
 
+.hero-blog{
+height: 60vh;
+width: 100%;
+display: block;
+position: relative;
+background-position: center center;
+}
+
 .img-background{
   background-size: cover;
   background-position: center;
