@@ -1,25 +1,6 @@
-<!doctype html>
-<html class="no-js" lang="">
-
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>BPL Italia</title>
-  <meta name="description" content="E' il sito dei Ragazzi di BPL">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
-</head>
-
+<?php
+  include 'inc/header_common.php';
+?>
 <body>
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
@@ -64,9 +45,9 @@
       <div class="row">
         <div class="col-12">
           <article>
-            <h1 class="text-white text-center">
+            <h2 class="text-white text-center">
               Video di presentazione
-            </h1>
+            </h2>
           </article>
         </div>
       </div>
@@ -88,17 +69,18 @@
 
   <!-- Inizio Come lo facciamo? -->
 
-  <section class="mb-5">
+  <section>
+    <hr class="spacer py-1 py-md-4" />
     <div class="container">
-      <div class="text-center mb-5" style="color: #1CA554;">
-        <h2>Come lo facciamo?</h2>
+      <div class="text-center mb-5">
+        <h2 class="title">Come lo facciamo?</h2>
       </div>
 
   <!-- Inizio Cards -->
 
-      <div class="card-deck mb-3">
-        <div class="card text-center">
-          <div class="card-img-top img-background-little" style="background: url('foto card 1.jpg');  background-size: cover;" alt="Card image cap"></div>
+      <div class="card-deck mt-5 mb-5">
+        <div class="card text-center bpl-card">
+          <div class="card-img-top img-background-little" style="background-image: url('foto card 1.jpg'); " alt="Card image cap"></div>
           <div class="card-body">
             <h5 class="card-title">Siamo in HNK</h5>
             <p class="card-text">La scuola più innovativa d’Italia</p>
@@ -108,8 +90,8 @@
 
         <!-- Fine di una Cards e inizio di un'altra -->
 
-        <div class="card text-center">
-          <div class="card-img-top img-background-little" style="background: url('foto card 2.png'); background-size: cover; background-position: 50% 50%;" alt="Card image cap"></div>
+        <div class="card text-center bpl-card">
+          <div class="card-img-top img-background-little" style="background-image: url('foto card 2.png'); background-position: 50% 50%;" alt="Card image cap"></div>
           <div class="card-body">
             <h5 class="card-title">Formiamo gli insegnanti</h5>
             <p class="card-text">Motiviamo con i nostri modelli didattici</p>
@@ -119,8 +101,8 @@
 
         <!-- Fine di una Cards e inizio di un'altra -->
 
-        <div class="card text-center">
-          <div class="card-img-top img-background-little" style="background: url('foto card 3.jpg'); background-size: cover;" alt="Card image cap"></div>
+        <div class="card text-center bpl-card">
+          <div class="card-img-top img-background-little" style="background-image: url('foto card 3.jpg');" alt="Card image cap"></div>
           <div class="card-body">
             <h5 class="card-title">Potenziamo il welfare nelle aziende </h5>
             <p class="card-text">Dal team-building al sostegno delle famiglie dei dipendenti</p>
@@ -130,8 +112,8 @@
 
         <!-- Fine di una Cards e inizio di un'altra -->
 
-        <div class="card text-center">
-          <div class="card-img-top img-background-little" style="background: url('foto card 4.jpg'); background-size: cover;" alt="Card image cap"></div>
+        <div class="card text-center bpl-card">
+          <div class="card-img-top img-background-little" style="background-image: url('foto card 4.jpg');" alt="Card image cap"></div>
           <div class="card-body">
             <h5 class="card-title">Apriamo nuove scuole</h5>
             <p class="card-text">Vuoi essere la prossima?</p>
@@ -140,17 +122,18 @@
         </div>
       </div>
     </div>
-
+    <hr class="spacer py-1 py-md-4" />
   </section>
 
   <!-- Inizio Il Nostro Staff -->
 
-  <div class="container mb-5">
+  <div class="container">
+    <hr class="spacer py-1 py-md-4" />
     <div class="row">
-      <img class="col-8" src="staff.png" alt="Immagine Il nostro staff">
-      <div class="col-4">
+      <img class="col-7" src="staff.png" alt="Immagine Il nostro staff">
+      <div class="col-5">
         <div class="ventipx">
-          <h2 class="text-uppercase" style="color: #1CA554">Il nostro Staff</h2>
+          <h2 class="title">Il nostro Staff</h2>
           <p>Giovani, motivati e con un obiettivo: istruire ed educare le nuove generazione nel rispetto della diversità e nel coltivare la fiducia in sè stessi.
           Come disse Dannis Littky, co-fondatore di Big Picture Learning:
           "Gli studenti hanno bisogno di sentire che la scuola è un posto dove
@@ -162,15 +145,17 @@
         </div>
       </div>
     </div>
+    <hr class="spacer py-1 py-md-4" />
   </div>
 
   <!-- Inizio "Evita di contattarci se..." -->
 
-  <section class="container mb-5">
+  <section class="container">
+    <hr class="spacer py-1 py-md-4" />
     <div class="row">
-      <div class="col-md-6 scrittagreen">
-        <h2><span>Evita di contattarci se...</span></h2>
-        <h4 style="padding-down: 25px">Cerchi un diplomificio</h4>
+      <div class="col-md-6">
+        <h2 class="title">Evita di contattarci se...</h2>
+        <h4 style="padding-bottom: 25px">Cerchi un diplomificio</h4>
         <h4>Cerchi lavoro</h4>
         <p>Lo staff è al completo</p>
         <p>Il tempo è denaro:</p>
@@ -181,50 +166,25 @@
         <img src="stop.PNG" height="100%" width="50%" />
       </div>
     </div>
+    <hr class="spacer py-1 py-md-4" />
   </section>
 
   <!-- Inizio "Sei un genitore?" -->
 
-  <section class="container-fluid mb-5">
-    <div class="mb-5 scrittagreen">
-      <h2 class="text-center"><span>Sei un genitore?</span></h2>
-      <h4 class="text-center">Puoi trovare un po’ di risposte qui</h4>
-    </div>
-    <div class="content-fluid text-center">
+  <section class="container-fluid text-center">
+    <hr class="spacer py-1 py-md-4" />
+      <h2 class="title">Sei un genitore?</h2>
+      <p>Puoi trovare un po’ di risposte qui</p>
+
       <a type="button" class="btn btn-danger" href="faq.html">
         <h4>Si, sono un genitore</h4>
       </a>
-    </div>
+    <hr class="spacer py-1 py-md-4" />
   </section>
 
   <!-- Footer -->
 
-  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-  <script>
-    window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
-  </script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () {
-      ga.q.push(arguments)
-    };
-    ga.q = [];
-    ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto');
-    ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-</body>
-
-</html>
+  <?php
+    include 'inc/footer.php';
+    include 'inc/footer_common.php';
+  ?>
