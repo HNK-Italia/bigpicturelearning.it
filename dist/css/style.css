@@ -1,31 +1,68 @@
-.card {
-    transition:0.5s;
-    border:0px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.17), 0 3px 3px rgba(0,0,0,0.15);
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.125rem;
 }
-.card .box {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800;
+}
+
+.title {
+   color: #1CA554;
+   font-size: 2.5rem;
+   margin-bottom: 2rem;
+}
+
+hr.spacer {
+  border: 0;
+  margin: 0;
+}
+
+.bpl-card {
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+  border:0px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.17), 0 3px 3px rgba(0,0,0,0.15);
+  overflow: hidden;
+}
+.bpl-card .card-img-top {
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
+.bpl-card:hover .card-img-top {
+  transform: translatey(-10px) scale(1.2) rotate(3deg);
+
+}
+.bpl-card .card-title {
+    font-weight: 700;
+}
+.bpl-card .box {
     text-align:center;
     padding:20px;
     box-sizing:border-box;
     width:100%;
 }
-.card .box .img {
+.bpl-card .box .img {
     width:120px;
     height:120px;
     margin:0 auto;
     border-radius:50%;
     overflow:hidden;
 }
-.card .box .img img {
+.bpl-card .box .img img {
     width:100%;
     height:100%;
 }
-.card .box h2 {
+.bpl-card .box h2 {
     font-size:20px;
     color:#262626;
     margin:20px auto;
 }
-.card .box h2 span {
+.bpl-card .box h2 span {
     font-size:14px;
     background:#e91e63;
     color:#fff;
@@ -33,21 +70,21 @@
     padding:4px 10px;
     border-radius:15px;
 }
-.card .box p {
+.bpl-card .box p {
     color:#262626;
 }
-.card .box span {
+.bpl-card .box span {
     display:inline-flex;
 }
-.card .box ul {
+.bpl-card .box ul {
     margin:0;
     padding:0;
 }
-.card .box ul li {
+.bpl-card .box ul li {
     list-style:none;
     float:left;
 }
-.card .box ul li a {
+.bpl-card .box ul li a {
     display:block;
     color:#aaa;
     margin:0 10px;
@@ -55,7 +92,7 @@
     transition:0.5s;
     text-align:center;
 }
-.card .box ul li:hover a {
+.bpl-card .box ul li:hover a {
     color:#e91e63;
     transform:rotateY(360deg);
 }
@@ -73,9 +110,7 @@
 .whitegreen span {
   color: white;
   }
-.scrittagreen span {
-  color: #1CA554;
-  }
+
 .backgroundred{
   background-color:Black;
   color:white;
@@ -163,6 +198,7 @@ background-position: center center;
 }
 
 .img-background-little{
+  background-size: cover;
   height: 150px;
 }
 
@@ -171,13 +207,13 @@ background-position: center center;
 
 }
 
-.btn-danger:hover{
+.btn:hover{
   box-shadow: 0 2px 5px rgba(0,0,0,0.20), 0 5px 5px rgba(0,0,0,0.10);
   color: #fff;
   background-color: #dc3545;
   border-color: #dc3545;
 }
 
-.card:hover{
+.bpl-card:hover{
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
