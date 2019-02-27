@@ -33,9 +33,14 @@ hr.spacer {
 .bpl-card .card-img-top {
   transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
+.bpl-card .card-img-top-blog {
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+}
 .bpl-card:hover .card-img-top {
   transform: translatey(-10px) scale(1.2) rotate(3deg);
-
+}
+.bpl-card:hover .card-img-top-blog {
+  transform: translatey(-10px) scale(1.2);
 }
 .bpl-card .card-title {
     font-weight: 700;
@@ -204,7 +209,6 @@ background-position: center center;
 
 .img-background-big{
   height: 250px;
-
 }
 
 .btn:hover{

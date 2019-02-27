@@ -1,6 +1,7 @@
 <?php
   include 'inc/header_common.php';
 ?>
+
 <body>
   <!--[if lte IE 9]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
@@ -8,7 +9,7 @@
 
   <!-- Add your site or application content here -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html"><img src="BPL logo.jpg" width="55" height="55" class="img-thumbnail"></a>
+    <a class="navbar-brand" href="index.php"><img src="BPL logo.jpg" width="55" height="55" class="img-thumbnail"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -17,21 +18,21 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="blog.html">Blog</a>
+          <a class="nav-link" href="blog.php">Blog</a>
         </li>
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="chisiamo.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+          <a class="nav-link dropdown-toggle" href="chisiamo.php" id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">Chi siamo</a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="chisiamo.html">Storia</a>
-            <a class="dropdown-item" href="chisiamo.html">Insegnanti</a>
-            <a class="dropdown-item" href="chisiamo.html">Squadra</a>
+            <a class="dropdown-item" href="chisiamo.php">Storia</a>
+            <a class="dropdown-item" href="chisiamo.php">Insegnanti</a>
+            <a class="dropdown-item" href="chisiamo.php">Squadra</a>
           </div>
         <li class="nav-item">
-          <a class="nav-link" href="faq.html">Faq</a>
+          <a class="nav-link" href="faq.php">Faq</a>
         </li>
         </li>
       </ul>
@@ -84,7 +85,7 @@
           <div class="card-body">
             <h5 class="card-title">Siamo in HNK</h5>
             <p class="card-text">La scuola più innovativa d’Italia</p>
-            <a href="faq.html" class="btn btn-danger">Socpri perché</a>
+            <a href="faq.php" class="btn btn-danger">Socpri perché</a>
           </div>
         </div>
 
@@ -95,7 +96,7 @@
           <div class="card-body">
             <h5 class="card-title">Formiamo gli insegnanti</h5>
             <p class="card-text">Motiviamo con i nostri modelli didattici</p>
-            <a href="faq.html" class="btn btn-danger">Scopri quali</a>
+            <a href="faq.php" class="btn btn-danger">Scopri quali</a>
           </div>
         </div>
 
@@ -106,7 +107,7 @@
           <div class="card-body">
             <h5 class="card-title">Potenziamo il welfare nelle aziende </h5>
             <p class="card-text">Dal team-building al sostegno delle famiglie dei dipendenti</p>
-            <a href="faq.html" class="btn btn-danger">Scopri come</a>
+            <a href="faq.php" class="btn btn-danger">Scopri come</a>
           </div>
         </div>
 
@@ -117,7 +118,7 @@
           <div class="card-body">
             <h5 class="card-title">Apriamo nuove scuole</h5>
             <p class="card-text">Vuoi essere la prossima?</p>
-            <a href="faq.html" class="btn btn-danger">Si, lo voglio</a>
+            <a href="faq.php" class="btn btn-danger">Si, lo voglio</a>
           </div>
         </div>
       </div>
@@ -176,7 +177,7 @@
       <h2 class="title">Sei un genitore?</h2>
       <p>Puoi trovare un po’ di risposte qui</p>
 
-      <a type="button" class="btn btn-danger" href="faq.html">
+      <a type="button" class="btn btn-danger" href="faq.php">
         <h4>Si, sono un genitore</h4>
       </a>
     <hr class="spacer py-1 py-md-4" />

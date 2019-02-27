@@ -1,24 +1,6 @@
-<!doctype html>
-<html class="no-js" lang="">
-
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Ragazzi di BPL Italia</title>
-  <meta name="description" content="E' il blog di BPL Italia">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
-
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
-</head>
+<?php
+  include 'inc/header_common.php';
+?>
 
 <body>
   <!--[if lte IE 9]>
@@ -27,7 +9,7 @@
 
   <!-- Add your site or application content here -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html"><img src="BPL logo.jpg" width="55" height="55" class="img-thumbnail"></a>
+    <a class="navbar-brand" href="index.php"><img src="BPL logo.jpg" width="55" height="55" class="img-thumbnail"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -36,13 +18,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="blog.html">Blog <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="blog.php">Blog <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item dropdown active">
-          <a class="nav-link dropdown-toggle" href="chisiamo.html" id="navbarDropdown" role="button" data-toggle="dropdown"
+          <a class="nav-link dropdown-toggle" href="chisiamo.php" id="navbarDropdown" role="button" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             Chi siamo
           </a>
@@ -52,7 +34,7 @@
             <a class="dropdown-item" href="#squadra">Squadra</a>
           </div>
           <li class="nav-item">
-            <a class="nav-link" href="faq.html">Faq</a>
+            <a class="nav-link" href="faq.php">Faq</a>
           </li>
         </li>
       </ul>
@@ -78,10 +60,10 @@
 
   <!-- Inizio della foto con testo -->
 
-  <section class="container-fluid center">
+  <section class="container center ventipx">
     <div class="row">
       <div class="col-8">
-        <div class="text-center" style="padding-left: 25%; padding-right: 5%; padding-top: 5%">
+        <div class="text-center">
           <h2>Text</h2>
           <p>Now is the winter of our discontent
             Made glorious summer by this sun of York;
@@ -105,12 +87,12 @@
         </div>
       </div>
       <div class="col-4">
-        <img class="img-fluid" src="BPL Italia logo.png">
+        <img class="img-fluid" src="bpl_italia_logo.png">
       </div>
     </div>
   </section>
 
-  <!-- Inizio elenco delle qualità -->
+  <!-- Inizio testo -->
 
   <section class="container-fluid mb-5 backgroundgreen">
     <div class="text-center whitegreen">
@@ -138,82 +120,63 @@
       </span></p>
     </div>
   </section>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2792.931154813043!2d8.05647781583787!3d45.57182303427618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478620e351890a8b%3A0xc97075872de0b51!2sSellalab+-+Biella!5e0!3m2!1sit!2sit!4v1550844521461" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+  <!-- Inizio Google Maps -->
+
+  <section class="container text-center ventipx">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2792.931154813043!2d8.05647781583787!3d45.57182303427618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478620e351890a8b%3A0xc97075872de0b51!2sSellalab+-+Biella!5e0!3m2!1sit!2sit!4v1550844521461" width="100%" height="550px" frameborder="0" style="border: 0" allowfullscreen></iframe>
+  </section>
+
   <!-- Inizio cards insegnanti -->
 
   <section class="container mb-5">
     <div class="center card-deck">
-      <div class="card text-center">
-        <div class="card-img-top img-background-little" style="background: url('https://picsum.photos/666/444'); background-size: cover; background-position: 50% 50%;" alt="Card image cap"></div>
+      <div class="card text-center bpl-card">
+        <div class="bpl-card-img-top img-background-little" style="background: url('https://picsum.photos/666/444'); background-size: cover; background-position: 50% 50%;" alt="Card image cap"></div>
         <div class="card-body">
           <h5 class="card-title">Nome Cognome</h5>
           <p class="card-text">Professione</p>
-          <a href="faq.html" class="btn btn-danger">Social</a>
+          <a href="faq.php" class="btn btn-danger">Social</a>
         </div>
       </div>
 
       <!-- Fine di una card e Inizio di un'altra -->
 
-      <div class="card text-center">
-        <div class="card-img-top img-background-little" style="background: url('https://picsum.photos/666/444'); background-size: cover; background-position: 50% 50%;" alt="Card image cap"></div>
+      <div class="card text-center bpl-card">
+        <div class="bpl-card-img-top img-background-little" style="background: url('https://picsum.photos/666/444'); background-size: cover; background-position: 50% 50%;" alt="Card image cap"></div>
         <div class="card-body">
           <h5 class="card-title">Nome Cognome</h5>
           <p class="card-text">Professione</p>
-          <a href="faq.html" class="btn btn-danger">Social</a>
+          <a href="faq.php" class="btn btn-danger">Social</a>
         </div>
       </div>
 
       <!-- Fine di una card e Inizio di un'altra -->
 
-      <div class="card text-center">
-        <div class="card-img-top img-background-little" style="background: url('https://picsum.photos/666/444'); background-size: cover; background-position: 50% 50%;" alt="Card image cap"></div>
+      <div class="card text-center bpl-card">
+        <div class="bpl-card-img-top img-background-little" style="background: url('https://picsum.photos/666/444'); background-size: cover; background-position: 50% 50%;" alt="Card image cap"></div>
         <div class="card-body">
           <h5 class="card-title">Nome Cognome</h5>
           <p class="card-text">Professione</p>
-          <a href="faq.html" class="btn btn-danger">Social</a>
+          <a href="faq.php" class="btn btn-danger">Social</a>
         </div>
       </div>
 
   <!-- Fine di una card e Inizio di un'altra -->
 
-      <div class="card text-center">
-        <div class="card-img-top img-background-little" style="background: url('https://picsum.photos/666/444'); background-size: cover; background-position: 50% 50%;" alt="Card image cap"></div>
+      <div class="card text-center bpl-card">
+        <div class="bpl-card-img-top img-background-little" style="background: url('https://picsum.photos/666/444'); background-size: cover; background-position: 50% 50%;" alt="Card image cap"></div>
         <div class="card-body">
           <h5 class="card-title">Nome Cognome</h5>
           <p class="card-text">Professione</p>
-          <a href="faq.html" class="btn btn-danger">Social</a>
+          <a href="faq.php" class="btn btn-danger">Social</a>
         </div>
       </div>
   </section>
 
   <!-- Footer -->
 
-  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-  <script>
-    window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')
-  </script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () {
-      ga.q.push(arguments)
-    };
-    ga.q = [];
-    ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto');
-    ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-</body>
-
-</html>
+  <?php
+    include 'inc/footer.php';
+    include 'inc/footer_common.php';
+  ?>
