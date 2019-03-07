@@ -189,6 +189,12 @@ position: relative;
 background-position: center;
 }
 
+.hero-chisiamo{
+width: 100%;
+display: block;
+position: relative;
+}
+
 .hero-blog{
 height: 60vh;
 width: 100%;

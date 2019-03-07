@@ -52,8 +52,7 @@
 
   <!-- Inizio dei post -->
 
-  <section class="container-fluid ventipx">
-    <div style="padding-left: 20%; padding-right: 20%">
+  <section class="container ventipx">
     <div class="row">
       <div class="col-4">
         <img class="img-fluid" src="https://picsum.photos/666/444">
@@ -63,32 +62,12 @@
           <h2>Title post</h2>
         </div>
       </div>
-    </div>
     </div>
   </section>
 
   <!-- Nuovo post del Blog -->
 
-  <section class="container-fluid backgroundgreen whitegreen">
-  <div style="padding-left: 20%; padding-right: 20%">
-    <div class="row">
-      <div class="col-4">
-        <img class="img-fluid" src="https://picsum.photos/666/444">
-      </div>
-      <div class="col-8">
-        <div class="text-center">
-          <h2><span>Title post</span></h2>
-        </div>
-      </div>
-    </div>
-  </div>
-  </div>
-  </section>
-
-    <!-- Nuovo post del Blog -->
-
-  <section class="container-fluid ventipx">
-    <div style="padding-left: 20%; padding-right: 20%">
+  <section class="container ventipx">
     <div class="row">
       <div class="col-4">
         <img class="img-fluid" src="https://picsum.photos/666/444">
@@ -99,13 +78,27 @@
         </div>
       </div>
     </div>
-    </div>
   </section>
+
+    <!-- Nuovo post del Blog -->
+
+    <section class="container ventipx">
+      <div class="row">
+        <div class="col-4">
+          <img class="img-fluid" src="https://picsum.photos/666/444">
+        </div>
+        <div class="col-8">
+          <div class="text-center">
+            <h2>Title post</h2>
+          </div>
+        </div>
+      </div>
+    </section>
 
   <!-- Inizio delle cards -->
 
-  <section class="backgroundgreen mb-5">
-  <div class="card-deck mb-3 container-fluid" style="padding-left: 25%; padding-right: 25%">
+  <section class="container">
+  <div class="card-deck container">
     <div class="card text-center bpl-card">
       <div class="card-img-top-blog img-background-little" style="background-image: url('https://picsum.photos/666/444');" alt="Card image cap"></div>
       <div class="card-body">
@@ -135,6 +128,9 @@
       </div>
   </div>
   </section>
+
+  <hr class="spacer py-1 py-md-4" />
+
   <!-- Footer -->
 
   <?php

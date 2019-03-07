@@ -35,7 +35,7 @@
 
   <!-- Inizio Titolo -->
 
-  <section class="hero-minimo mb-5" style="background: url('foto chi siamo.jpg');background-size: cover; background-position: center center;">
+  <section class="hero-minimo" style="background: url('foto chi siamo.jpg');background-size: cover; background-position: center center;">
 
   <!-- Inizio frase in sovraimpressione -->
 
@@ -52,33 +52,24 @@
 
   <!-- Inizio della foto con testo -->
 
-  <section class="container center ventipx">
+  <section class="container center">
     <div class="row">
-      <div class="col-8">
+      <div class="col-7 ventipx">
         <div class="text-center">
-          <h2>Text</h2>
-          <p>Now is the winter of our discontent
-            Made glorious summer by this sun of York;
-            And all the clouds that lour'd upon our house
-            In the deep bosom of the ocean buried.
-            Now are our brows bound with victorious wreaths;
-            Our bruised arms hung up for monuments;
-            Our stern alarums changed to merry meetings,
-            Our dreadful marches to delightful measures.
-            Grim-visaged war hath smooth'd his wrinkled front;
-            And now, instead of mounting barded steeds
-            To fright the souls of fearful adversaries,
-            He capers nimbly in a lady's chamber
-            To the lascivious pleasing of a lute.
-            But I, that am not shaped for sportive tricks,
-            Nor made to court an amorous looking-glass;
-            I, that am rudely stamp'd, and want love's majesty
-            To strut before a wanton ambling nymph;
-            I, that am curtail'd of this fair proportion,
+          <h2 style="color: #1CA554">Il nostro team</h2>
+          <p>Giovani, motivati e con un obiettivo: istruire ed educare le nuove
+          generazione nel rispetto della diversità e nel coltivare la fiducia in
+          sè stessi.
+          Come disse Dannis Littky, co-fondatore di Big Picture Learning:
+          "Gli studenti hanno bisogno di sentire che la scuola è un posto
+          dove la loro forza e le loro energie sono promosse ed elogiate,
+          dove loro sono considerati come esseri umani […]
+          Hanno bisogno che la loro scuola e - la loro società - li veda come
+          risorse e non come prosciugamento di risorse."
           </p>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col-5">
         <img class="img-fluid" src="bpl_italia_logo.png">
       </div>
     </div>
@@ -86,38 +77,27 @@
 
   <!-- Inizio testo -->
 
-  <section class="container-fluid mb-5 backgroundgreen">
+  <section class="hero-chisiamo" style="background: url('https://picsum.photos/1920/1080');background-size: cover; background-position: center center; opacity: 0.5;">
+    <section class="container">
     <div class="text-center whitegreen">
-      <h2><span>Text</span></h2>
+      <hr class="spacer py-1 py-md-4" />
+      <h2><span>Chi siamo?</span></h2>
     </div>
-    <div class="whitegreen text-center" style="padding-left: 25%; padding-right: 25%">
-      <p><span>Now is the winter of our discontent
-        Made glorious summer by this sun of York;
-        And all the clouds that lour'd upon our house
-        In the deep bosom of the ocean buried.
-        Now are our brows bound with victorious wreaths;
-        Our bruised arms hung up for monuments;
-        Our stern alarums changed to merry meetings,
-        Our dreadful marches to delightful measures.
-        Grim-visaged war hath smooth'd his wrinkled front;
-        And now, instead of mounting barded steeds
-        To fright the souls of fearful adversaries,
-        He capers nimbly in a lady's chamber
-        To the lascivious pleasing of a lute.
-        But I, that am not shaped for sportive tricks,
-        Nor made to court an amorous looking-glass;
-        I, that am rudely stamp'd, and want love's majesty
-        To strut before a wanton ambling nymph;
-        I, that am curtail'd of this fair proportion,
+    <div class="whitegreen text-center">
+      <p><span>Giovani, motivati e con un obiettivo: istruire ed educare le nuove generazione nel rispetto della diversità e nel coltivare la fiducia in sè stessi.
+        Come disse Dannis Littky, co-fondatore di Big Picture Learning:
+        "Gli studenti hanno bisogno di sentire che la scuola è un posto dove la loro forza e le
+        loro energie sono promosse ed elogiate, dove loro sono considerati come esseri
+        umani […]
+        Hanno bisogno che la loro scuola e - la loro società - li veda come risorse e non come
+        prosciugamento di risorse."
       </span></p>
     </div>
+    <hr class="spacer py-1 py-md-4" />
+  </section>
   </section>
 
-  <!-- Inizio Google Maps -->
-
-  <section class="container text-center ventipx">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2792.931154813043!2d8.05647781583787!3d45.57182303427618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478620e351890a8b%3A0xc97075872de0b51!2sSellalab+-+Biella!5e0!3m2!1sit!2sit!4v1550844521461" width="100%" height="550px" frameborder="0" style="border: 0" allowfullscreen></iframe>
-  </section>
+  <hr class="spacer py-1 py-md-4" />
 
   <!-- Inizio cards insegnanti -->
 
@@ -165,6 +145,14 @@
         </div>
       </div>
   </section>
+
+  <!-- Inizio Google Maps -->
+
+  <section class="container-fluid backgroundgreen">
+  <section class="container text-center ventipx">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2792.931154813043!2d8.05647781583787!3d45.57182303427618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478620e351890a8b%3A0xc97075872de0b51!2sSellalab+-+Biella!5e0!3m2!1sit!2sit!4v1550844521461" width="100%" height="550px" frameborder="0" style="border: 0" allowfullscreen></iframe>
+  </section>
+</section>
 
   <!-- Footer -->
 

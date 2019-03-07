@@ -53,9 +53,10 @@
   <!-- Inizio FAQ -->
 
   <section class="container-fluid mb-5 whitegreen" style="padding: 0px">
+    <section class="container">
     <div class="text-center ventipx">
       <h2>Title FAQ</h2>
-      <div class="text center" style="padding-left: 25%; padding-right: 25%">
+      <div class="text center">
         <p>
           Now is the winter of our discontent
             Made glorious summer by this sun of York;
@@ -78,12 +79,14 @@
         </p>
       </div>
     </div>
+  </section>
 
     <!-- Fine di una faq e inizio di un'altra -->
 
     <div class="text-center backgroundgreen">
+      <section class="container backgroundgreen">
       <h2><span>Title FAQ</span></h2>
-      <div class="text center backgroundgreen" style="padding-left: 25%; padding-right: 25%">
+      <div class="text center backgroundgreen">
         <p><span>
           Now is the winter of our discontent
             Made glorious summer by this sun of York;
@@ -106,12 +109,14 @@
         </span></p>
       </div>
     </div>
+  </section>
 
     <!-- Fine di una faq e inizio di un'altra -->
 
     <div class="text-center ventipx">
+      <section class="container">
       <h2>Title FAQ</h2>
-      <div class="text center" style="padding-left: 25%; padding-right: 25%">
+      <div class="text center">
         <p>
           Now is the winter of our discontent
             Made glorious summer by this sun of York;
@@ -134,12 +139,14 @@
         </p>
       </div>
     </div>
+  </section>
 
     <!-- Fine di una faq e inizio di un'altra -->
 
     <div class="text-center backgroundgreen">
+      <section class="container backgroundgreen">
       <h2><span>Title FAQ</span></h2>
-      <div class="text center backgroundgreen" style="padding-left: 25%; padding-right: 25%">
+      <div class="text center backgroundgreen">
         <p><span>
           Now is the winter of our discontent
             Made glorious summer by this sun of York;
@@ -162,12 +169,14 @@
         </span></p>
       </div>
     </div>
+  </section>
 
     <!-- Fine di una faq e inizio di un'altra -->
 
     <div class="text-center ventipx">
+      <section class="container">
       <h2>Title FAQ</h2>
-      <div class="text center" style="padding-left: 25%; padding-right: 25%">
+      <div class="text center">
         <p>
           Now is the winter of our discontent
             Made glorious summer by this sun of York;
@@ -190,6 +199,7 @@
         </p>
       </div>
     </div>
+  </section>
   </section>
 
   <!-- Footer -->
