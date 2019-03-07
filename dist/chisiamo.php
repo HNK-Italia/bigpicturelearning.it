@@ -21,21 +21,13 @@
           <a class="nav-link" href="index.php">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="blog.php">Blog <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="blog.php">Blog</a>
         </li>
-        <li class="nav-item dropdown active">
-          <a class="nav-link dropdown-toggle" href="chisiamo.php" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">
-            Chi siamo
-          </a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="#storia">Storia</a>
-            <a class="dropdown-item" href="#insegnanti">Insegnanti</a>
-            <a class="dropdown-item" href="#squadra">Squadra</a>
-          </div>
-          <li class="nav-item">
-            <a class="nav-link" href="faq.php">Faq</a>
-          </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="chisiamo.php">Chi siamo <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="faq.php">Faq</a>
         </li>
       </ul>
     </div>

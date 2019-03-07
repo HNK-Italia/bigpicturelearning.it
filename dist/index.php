@@ -23,17 +23,11 @@
         <li class="nav-item">
           <a class="nav-link" href="blog.php">Blog</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="chisiamo.php" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">Chi siamo</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="chisiamo.php">Storia</a>
-            <a class="dropdown-item" href="chisiamo.php">Insegnanti</a>
-            <a class="dropdown-item" href="chisiamo.php">Squadra</a>
-          </div>
+        <li class="nav-item">
+          <a class="nav-link" href="chisiamo.php">Chi siamo</a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="faq.php">Faq</a>
-        </li>
         </li>
       </ul>
     </div>

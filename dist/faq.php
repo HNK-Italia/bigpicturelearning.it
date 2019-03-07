@@ -18,22 +18,16 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.php">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="index.php">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="blog.php">Blog</a>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="chisiamo.php" id="navbarDropdown" role="button" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false">Chi siamo</a>
-          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="chisiamo.php">Storia</a>
-            <a class="dropdown-item" href="chisiamo.php">Insegnanti</a>
-            <a class="dropdown-item" href="chisiamo.php">Squadra</a>
-          </div>
-          <li class="nav-item active">
-            <a class="nav-link" href="faq.php">Faq</a>
-          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="chisiamo.php">Chi siamo</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="faq.php">Faq <span class="sr-only">(current)</span></a>
         </li>
       </ul>
     </div>
