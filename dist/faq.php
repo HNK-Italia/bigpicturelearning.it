@@ -52,71 +52,66 @@
 
   <!-- Inizio FAQ -->
 
-  <section class="mb-5 whitegreen">
-    <section class="container">
-    <div class="text-center ventipx">
+  <section class="section-faq">
+    <div class="container">
       <h2>Title FAQ</h2>
-      <div class="text center">
-        <p>
-          Now is the winter of our discontent
-            Made glorious summer by this sun of York;
-            And all the clouds that lour'd upon our house
-            In the deep bosom of the ocean buried.
-            Now are our brows bound with victorious wreaths;
-            Our bruised arms hung up for monuments;
-            Our stern alarums changed to merry meetings,
-            Our dreadful marches to delightful measures.
-            Grim-visaged war hath smooth'd his wrinkled front;
-            And now, instead of mounting barded steeds
-            To fright the souls of fearful adversaries,
-            He capers nimbly in a lady's chamber
-            To the lascivious pleasing of a lute.
-            But I, that am not shaped for sportive tricks,
-            Nor made to court an amorous looking-glass;
-            I, that am rudely stamp'd, and want love's majesty
-            To strut before a wanton ambling nymph;
-            I, that am curtail'd of this fair proportion,
-        </p>
-      </div>
+      <p>
+      Now is the winter of our discontent
+      Made glorious summer by this sun of York;
+      And all the clouds that lour'd upon our house
+      In the deep bosom of the ocean buried.
+      Now are our brows bound with victorious wreaths;
+      Our bruised arms hung up for monuments;
+      Our stern alarums changed to merry meetings,
+      Our dreadful marches to delightful measures.
+      Grim-visaged war hath smooth'd his wrinkled front;
+      And now, instead of mounting barded steeds
+      To fright the souls of fearful adversaries,
+      He capers nimbly in a lady's chamber
+      To the lascivious pleasing of a lute.
+      But I, that am not shaped for sportive tricks,
+      Nor made to court an amorous looking-glass;
+      I, that am rudely stamp'd, and want love's majesty
+      To strut before a wanton ambling nymph;
+      I, that am curtail'd of this fair proportion,
+      </p>
     </div>
   </section>
 
     <!-- Fine di una faq e inizio di un'altra -->
 
-    <div class="text-center backgroundgreen">
-      <section class="container backgroundgreen">
-      <h2><span>Title FAQ</span></h2>
-      <div class="text center backgroundgreen">
-        <p><span>
-          Now is the winter of our discontent
-            Made glorious summer by this sun of York;
-            And all the clouds that lour'd upon our house
-            In the deep bosom of the ocean buried.
-            Now are our brows bound with victorious wreaths;
-            Our bruised arms hung up for monuments;
-            Our stern alarums changed to merry meetings,
-            Our dreadful marches to delightful measures.
-            Grim-visaged war hath smooth'd his wrinkled front;
-            And now, instead of mounting barded steeds
-            To fright the souls of fearful adversaries,
-            He capers nimbly in a lady's chamber
-            To the lascivious pleasing of a lute.
-            But I, that am not shaped for sportive tricks,
-            Nor made to court an amorous looking-glass;
-            I, that am rudely stamp'd, and want love's majesty
-            To strut before a wanton ambling nymph;
-            I, that am curtail'd of this fair proportion,
-        </span></p>
+    <section class="section-faq section-faq--green">
+      <div class="container">
+        <h2>Title FAQ</h2>
+        <p>
+        Now is the winter of our discontent
+        Made glorious summer by this sun of York;
+        And all the clouds that lour'd upon our house
+        In the deep bosom of the ocean buried.
+        Now are our brows bound with victorious wreaths;
+        Our bruised arms hung up for monuments;
+        Our stern alarums changed to merry meetings,
+        Our dreadful marches to delightful measures.
+        Grim-visaged war hath smooth'd his wrinkled front;
+        And now, instead of mounting barded steeds
+        To fright the souls of fearful adversaries,
+        He capers nimbly in a lady's chamber
+        To the lascivious pleasing of a lute.
+        But I, that am not shaped for sportive tricks,
+        Nor made to court an amorous looking-glass;
+        I, that am rudely stamp'd, and want love's majesty
+        To strut before a wanton ambling nymph;
+        I, that am curtail'd of this fair proportion,
+        </p>
       </div>
-    </div>
-  </section>
+    </section>
 
     <!-- Fine di una faq e inizio di un'altra -->
 
     <section class="section-faq">
       <div class="container">
-        <h2 class="section-faq__title">Title FAQ</h2>
-        <p class="section-faq__text">
+        <h2>Title FAQ</h2>
+        <p>
         Now is the winter of our discontent
         Made glorious summer by this sun of York;
         And all the clouds that lour'd upon our house
@@ -169,33 +164,31 @@
 
     <!-- Fine di una faq e inizio di un'altra -->
 
-    <div class="text-center ventipx">
-      <section class="container">
-      <h2>Title FAQ</h2>
-      <div class="text center">
+    <section class="section-faq">
+      <div class="container">
+        <h2>Title FAQ</h2>
         <p>
-          Now is the winter of our discontent
-            Made glorious summer by this sun of York;
-            And all the clouds that lour'd upon our house
-            In the deep bosom of the ocean buried.
-            Now are our brows bound with victorious wreaths;
-            Our bruised arms hung up for monuments;
-            Our stern alarums changed to merry meetings,
-            Our dreadful marches to delightful measures.
-            Grim-visaged war hath smooth'd his wrinkled front;
-            And now, instead of mounting barded steeds
-            To fright the souls of fearful adversaries,
-            He capers nimbly in a lady's chamber
-            To the lascivious pleasing of a lute.
-            But I, that am not shaped for sportive tricks,
-            Nor made to court an amorous looking-glass;
-            I, that am rudely stamp'd, and want love's majesty
-            To strut before a wanton ambling nymph;
-            I, that am curtail'd of this fair proportion,
+        Now is the winter of our discontent
+        Made glorious summer by this sun of York;
+        And all the clouds that lour'd upon our house
+        In the deep bosom of the ocean buried.
+        Now are our brows bound with victorious wreaths;
+        Our bruised arms hung up for monuments;
+        Our stern alarums changed to merry meetings,
+        Our dreadful marches to delightful measures.
+        Grim-visaged war hath smooth'd his wrinkled front;
+        And now, instead of mounting barded steeds
+        To fright the souls of fearful adversaries,
+        He capers nimbly in a lady's chamber
+        To the lascivious pleasing of a lute.
+        But I, that am not shaped for sportive tricks,
+        Nor made to court an amorous looking-glass;
+        I, that am rudely stamp'd, and want love's majesty
+        To strut before a wanton ambling nymph;
+        I, that am curtail'd of this fair proportion,
         </p>
       </div>
-    </div>
-  </section>
+    </section>
   </section>
 
   <!-- Footer -->
