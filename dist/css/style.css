@@ -227,3 +227,46 @@ background-position: center center;
 .bpl-card:hover{
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
+
+.section-faq {
+  text-align: center;
+  padding:20px 0;
+  margin-bottom: 24px;
+  color: #000000;
+  height: 100px;
+  overflow: hidden;
+  transition: all .3s ease-in-out;
+  /* color: rgb(0, 0, 0);
+  color: rgba(0, 0, 0, 1); */
+}
+
+.section-faq.hover {
+  height: 300px;
+}
+.section-faq.hover .section-faq__text {
+  opacity: 1;
+}
+
+.section-faq.hover .section-faq__title::after {
+  transform:rotate(180deg);
+}
+
+.section-faq--green {
+  background-color: #1CA554;
+  color: #ffffff;
+}
+.section-faq__title {
+  position: relative;
+  display: inline-block;
+}
+.section-faq__title::after {
+  position: absolute;
+  right: -24px;
+  top: 0;
+  content: "\2193";
+  transition: all .3s ease-in-out;
+}
+.section-faq__text {
+  opacity: 0;
+  transition: all .3s ease-in-out;
+}
