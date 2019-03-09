@@ -8,7 +8,7 @@
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="tornasu">
     <a class="navbar-brand" href="index.php"><img src="BPL logo.jpg" width="55" height="55" class="img-thumbnail"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -194,6 +194,7 @@
   <!-- Footer -->
 
   <?php
+    include 'inc/tornasu.php';
     include 'inc/footer.php';
     include 'inc/footer_common.php';
   ?>
