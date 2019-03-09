@@ -1,4 +1,6 @@
+# Dallo sviluppatore
 Lavoriamo sulla cartella dist
+Le pagine principali sono in php, quindi è neccessario avere un server
 
 # [HTML5 Boilerplate](https://html5boilerplate.com/)
 

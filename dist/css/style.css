@@ -14,9 +14,9 @@ h6 {
 }
 
 .title {
-   color: #1CA554;
-   font-size: 2.5rem;
-   margin-bottom: 2rem;
+ color: #1CA554;
+ font-size: 2.5rem;
+ margin-bottom: 2rem;
 }
 
 hr.spacer {
@@ -43,59 +43,59 @@ hr.spacer {
   transform: translatey(-10px) scale(1.2);
 }
 .bpl-card .card-title {
-    font-weight: 700;
+  font-weight: 700;
 }
 .bpl-card .box {
-    text-align:center;
-    padding:20px;
-    box-sizing:border-box;
-    width:100%;
+  text-align:center;
+  padding:20px;
+  box-sizing:border-box;
+  width:100%;
 }
 .bpl-card .box .img {
-    width:120px;
-    height:120px;
-    margin:0 auto;
-    border-radius:50%;
-    overflow:hidden;
+  width:120px;
+  height:120px;
+  margin:0 auto;
+  border-radius:50%;
+  overflow:hidden;
 }
 .bpl-card .box .img img {
-    width:100%;
-    height:100%;
+  width:100%;
+  height:100%;
 }
 .bpl-card .box h2 {
-    font-size:20px;
-    color:#262626;
-    margin:20px auto;
+  font-size:20px;
+  color:#262626;
+  margin:20px auto;
 }
 .bpl-card .box h2 span {
-    font-size:14px;
-    background:#e91e63;
-    color:#fff;
-    display:inline-block;
-    padding:4px 10px;
-    border-radius:15px;
+  font-size:14px;
+  background:#e91e63;
+  color:#fff;
+  display:inline-block;
+  padding:4px 10px;
+  border-radius:15px;
 }
 .bpl-card .box p {
-    color:#262626;
+  color:#262626;
 }
 .bpl-card .box span {
-    display:inline-flex;
+  display:inline-flex;
 }
 .bpl-card .box ul {
-    margin:0;
-    padding:0;
+  margin:0;
+  padding:0;
 }
 .bpl-card .box ul li {
     list-style:none;
     float:left;
 }
 .bpl-card .box ul li a {
-    display:block;
-    color:#aaa;
-    margin:0 10px;
-    font-size:20px;
-    transition:0.5s;
-    text-align:center;
+  display:block;
+  color:#aaa;
+  margin:0 10px;
+  font-size:20px;
+  transition:0.5s;
+  text-align:center;
 }
 .bpl-card .box ul li:hover a {
     color:#e91e63;
@@ -170,37 +170,37 @@ hr.spacer {
 }
 
 .hero{
-background: url('https://picsum.photos/1920/1080') no-repeat;
-background-size: cover;
-height: 80vh;
-width: 100%;
-display: block;
-position: relative;
-background-position: center;
+  background: url('https://picsum.photos/1920/1080') no-repeat;
+  background-size: cover;
+  height: 80vh;
+  width: 100%;
+  display: block;
+  position: relative;
+  background-position: center;
 }
 
 .hero-minimo{
-background: url('https://picsum.photos/1920/1080') no-repeat;
-background-size: cover;
-height: 60vh;
-width: 100%;
-display: block;
-position: relative;
-background-position: center;
+  background: url('https://picsum.photos/1920/1080') no-repeat;
+  background-size: cover;
+  height: 60vh;
+  width: 100%;
+  display: block;
+  position: relative;
+  background-position: center;
 }
 
 .hero-chisiamo{
-width: 100%;
-display: block;
-position: relative;
+  width: 100%;
+  display: block;
+  position: relative;
 }
 
 .hero-blog{
-height: 60vh;
-width: 100%;
-display: block;
-position: relative;
-background-position: center center;
+  height: 60vh;
+  width: 100%;
+  display: block;
+  position: relative;
+  background-position: center center;
 }
 
 .img-background{

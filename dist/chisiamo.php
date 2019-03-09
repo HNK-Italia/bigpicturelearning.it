@@ -108,7 +108,6 @@
         <div class="card-body">
           <h5 class="card-title">Nome Cognome</h5>
           <p class="card-text">Professione</p>
-          <a href="faq.php" class="btn btn-danger">Social</a>
         </div>
       </div>
 
@@ -119,7 +118,6 @@
         <div class="card-body">
           <h5 class="card-title">Nome Cognome</h5>
           <p class="card-text">Professione</p>
-          <a href="faq.php" class="btn btn-danger">Social</a>
         </div>
       </div>
 
@@ -130,7 +128,6 @@
         <div class="card-body">
           <h5 class="card-title">Nome Cognome</h5>
           <p class="card-text">Professione</p>
-          <a href="faq.php" class="btn btn-danger">Social</a>
         </div>
       </div>
 
@@ -141,7 +138,6 @@
         <div class="card-body">
           <h5 class="card-title">Nome Cognome</h5>
           <p class="card-text">Professione</p>
-          <a href="faq.php" class="btn btn-danger">Social</a>
         </div>
       </div>
   </section>
