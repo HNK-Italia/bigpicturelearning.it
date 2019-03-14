@@ -145,11 +145,12 @@
 
   <!-- Inizio "Evita di contattarci se..." -->
 
-  <section class="container">
+  <section class="container-fluid section-evita">
+    <section class="container">
     <hr class="spacer py-1 py-md-4" />
     <div class="row">
       <div class="col-md-6">
-        <h2 class="title">Evita di contattarci se...</h2>
+        <h2 class="title-evita">Evita di contattarci se...</h2>
         <h4 style="padding-bottom: 25px">Cerchi un diplomificio</h4>
         <h4>Cerchi lavoro</h4>
         <p>Lo staff è al completo</p>
@@ -162,6 +163,7 @@
       </div>
     </div>
     <hr class="spacer py-1 py-md-4" />
+  </section>
   </section>
 
   <!-- Inizio "Sei un genitore?" -->

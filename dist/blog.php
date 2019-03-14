@@ -59,7 +59,7 @@
       </div>
       <div class="col-8">
         <div class="text-center">
-          <h2>Title post</h2>
+          <h2 class="title">Title post</h2>
         </div>
       </div>
     </div>
@@ -74,7 +74,7 @@
       </div>
       <div class="col-8">
         <div class="text-center">
-          <h2>Title post</h2>
+          <h2 class="title">Title post</h2>
         </div>
       </div>
     </div>
@@ -89,7 +89,7 @@
         </div>
         <div class="col-8">
           <div class="text-center">
-            <h2>Title post</h2>
+            <h2 class="title">Title post</h2>
           </div>
         </div>
       </div>

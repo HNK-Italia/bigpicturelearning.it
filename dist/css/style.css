@@ -19,6 +19,11 @@ h6 {
  margin-bottom: 2rem;
 }
 
+.title-evita {
+ font-size: 2.5rem;
+ margin-bottom: 2rem;
+}
+
 hr.spacer {
   border: 0;
   margin: 0;
@@ -44,6 +49,7 @@ hr.spacer {
 }
 .bpl-card .card-title {
   font-weight: 700;
+  color: #1CA554;
 }
 .bpl-card .box {
   text-align:center;
@@ -209,6 +215,12 @@ hr.spacer {
 
 .bpl-card:hover{
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.section-evita {
+  padding:20px 0;
+  margin-bottom: 24px;
+  background-color: #1CA554;
+  color: #ffffff;
 }
 
 .section-faq {
