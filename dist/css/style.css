@@ -12,7 +12,10 @@ h5,
 h6 {
   font-weight: 800;
 }
-
+ .infondo {
+  background-color: rgba(0,0,0,0.7);
+  color: #ffffff
+}
 .title {
  color: #1CA554;
  font-size: 2.5rem;
@@ -206,7 +209,7 @@ hr.spacer {
   height: 250px;
 }
 
-.btn:hover{
+.btn-danger:hover{
   box-shadow: 0 2px 5px rgba(0,0,0,0.20), 0 5px 5px rgba(0,0,0,0.10);
   color: #fff;
   background-color: #dc3545;
