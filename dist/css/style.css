@@ -2,6 +2,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 1.125rem;
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -236,4 +237,17 @@ hr.spacer {
 .section-faq--green {
   background-color: #1CA554;
   color: #ffffff;
+}
+
+.btn-light{
+  background-color: #eaeaea;
+}
+/* Torna su (tornasu.php) */
+.tornasu {
+  position: fixed;
+  bottom: 7%;
+  right: 7%;
+}
+.tornasu i {
+  vertical-align: text-bottom;
 }
