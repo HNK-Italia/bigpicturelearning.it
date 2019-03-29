@@ -9,7 +9,7 @@
 
   <!-- Add your site or application content here -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light" id="tornasu">
-    <a class="navbar-brand" href="index.php"><img src="BPL logo.jpg" width="55" height="55" class="img-thumbnail"></a>
+    <a class="navbar-brand" href="index.php"><img src=bpl_italia_logo.png width="55" height="55" class="img-thumbnail"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -64,69 +64,18 @@
 
   <!-- Inizio Come lo facciamo? -->
 
-  <section>
-    <hr class="spacer py-1 py-md-4" />
-    <div class="container">
-      <div class="text-center mb-5">
-        <h2 class="title">Come lo facciamo?</h2>
-      </div>
-
-  <!-- Inizio Cards -->
-
-      <div class="card-deck mt-5 mb-5">
-        <div class="card text-center bpl-card">
-          <div class="card-img-top img-background-little" style="background-image: url('foto card 1.jpg'); " alt="Card image cap"></div>
-          <div class="card-body">
-            <h5 class="card-title">Siamo in HNK</h5>
-            <p class="card-text">La scuola più innovativa d’Italia</p>
-            <a href="faq.php" class="btn btn-danger">Socpri perché</a>
-          </div>
-        </div>
-
-        <!-- Fine di una Cards e inizio di un'altra -->
-
-        <div class="card text-center bpl-card">
-          <div class="card-img-top img-background-little" style="background-image: url('foto card 2.png'); background-position: 50% 50%;" alt="Card image cap"></div>
-          <div class="card-body">
-            <h5 class="card-title">Formiamo gli insegnanti</h5>
-            <p class="card-text">Motiviamo con i nostri modelli didattici</p>
-            <a href="faq.php" class="btn btn-danger">Scopri quali</a>
-          </div>
-        </div>
-
-        <!-- Fine di una Cards e inizio di un'altra -->
-
-        <div class="card text-center bpl-card">
-          <div class="card-img-top img-background-little" style="background-image: url('foto card 3.jpg');" alt="Card image cap"></div>
-          <div class="card-body">
-            <h5 class="card-title">Potenziamo il welfare nelle aziende </h5>
-            <p class="card-text">Dal team-building al sostegno delle famiglie dei dipendenti</p>
-            <a href="faq.php" class="btn btn-danger">Scopri come</a>
-          </div>
-        </div>
-
-        <!-- Fine di una Cards e inizio di un'altra -->
-
-        <div class="card text-center bpl-card">
-          <div class="card-img-top img-background-little" style="background-image: url('foto card 4.jpg');" alt="Card image cap"></div>
-          <div class="card-body">
-            <h5 class="card-title">Apriamo nuove scuole</h5>
-            <p class="card-text">Vuoi essere la prossima?</p>
-            <a href="faq.php" class="btn btn-danger">Si, lo voglio</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <hr class="spacer py-1 py-md-4" />
-  </section>
+  <?php
+    include 'inc/index/cards.php';
+    include 'inc/index/cards2.php';
+  ?>
 
   <!-- Inizio Il Nostro Staff -->
 
   <div class="container">
     <hr class="spacer py-1 py-md-4" />
     <div class="row">
-      <img class="col-7" src="staff.png" alt="Immagine Il nostro staff">
-      <div class="col-5">
+      <img class="col-md-7" src="staff.png" alt="Immagine Il nostro staff">
+      <div class="col-md-5">
         <div class="ventipx">
           <h2 class="title">Il nostro Staff</h2>
           <p>Giovani, motivati e con un obiettivo: istruire ed educare le nuove generazione nel rispetto della diversità e nel coltivare la fiducia in sè stessi.
@@ -149,17 +98,23 @@
     <section class="container">
     <hr class="spacer py-1 py-md-4" />
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-7">
         <h2 class="title-evita">Evita di contattarci se...</h2>
-        <h4 style="padding-bottom: 25px">Cerchi un diplomificio</h4>
-        <h4>Cerchi lavoro</h4>
-        <p>Lo staff è al completo</p>
-        <p>Il tempo è denaro:</p>
-        <p>evitiamo di perdere tempo entrambi</p>
-        <p>Quando si libererà un posto lo scriveremo qui</p>
+        <div class="row">
+        <div class="col-md-6">
+          <h4 style="padding-bottom: 25px">Cerchi un diplomificio <i class="material-icons" style="color:#dc3545">close</i></h4>
+        </div>
+        <div class="col-md-6">
+          <h4>Cerchi lavoro <i class="material-icons" style="color:#dc3545">close</i></h4>
+          <p>Lo staff è al completo</p>
+          <p>Il tempo è denaro:</p>
+          <p>evitiamo di perdere tempo entrambi</p>
+          <p>Quando si libererà un posto lo scriveremo qui</p>
+        </div>
       </div>
-      <div class="col-md-6 text-center">
-        <img src="stop.PNG" height="100%" width="50%" />
+    </div>
+      <div class="col-md-5 text-center">
+        <img src="stop.png" height="100%" width="50%" />
       </div>
     </div>
     <hr class="spacer py-1 py-md-4" />

@@ -245,8 +245,8 @@ hr.spacer {
 /* Torna su (tornasu.php) */
 .tornasu {
   position: fixed;
-  bottom: 7%;
-  right: 7%;
+  bottom: 70px;
+  right: 70px;
 }
 .tornasu i {
   vertical-align: text-bottom;
