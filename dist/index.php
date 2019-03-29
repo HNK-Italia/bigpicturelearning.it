@@ -66,7 +66,6 @@
 
   <?php
     include 'inc/index/cards.php';
-    include 'inc/index/cards2.php';
   ?>
 
   <!-- Inizio Il Nostro Staff -->

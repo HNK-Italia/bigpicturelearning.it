@@ -7,8 +7,7 @@
 
 <!-- Inizio Cards -->
 
-    <div class="row mt-5 mb-5">
-      <div class="col-mx-12 col-md-6 col-lg-3">
+    <div class="card-deck mt-5 mb-5">
       <div class="card text-center bpl-card">
         <div class="card-img-top img-background-little" style="background-image: url('foto card 1.jpg'); " alt="Card image cap"></div>
         <div class="card-body">
@@ -17,11 +16,9 @@
           <a href="faq.php" class="btn btn-danger">Socpri perché</a>
         </div>
       </div>
-    </div>
 
       <!-- Fine di una Cards e inizio di un'altra -->
 
-      <div class="col-mx-12 col-md-6 col-lg-3">
       <div class="card text-center bpl-card">
         <div class="card-img-top img-background-little" style="background-image: url('foto card 2.png'); background-position: 50% 50%;" alt="Card image cap"></div>
         <div class="card-body">
@@ -30,11 +27,9 @@
           <a href="faq.php" class="btn btn-danger">Scopri quali</a>
         </div>
       </div>
-    </div>
 
       <!-- Fine di una Cards e inizio di un'altra -->
 
-      <div class="col-mx-12 col-md-6 col-lg-3">
       <div class="card text-center bpl-card">
         <div class="card-img-top img-background-little" style="background-image: url('foto card 3.jpg');" alt="Card image cap"></div>
         <div class="card-body">
@@ -43,11 +38,9 @@
           <a href="faq.php" class="btn btn-danger">Scopri come</a>
         </div>
       </div>
-    </div>
 
       <!-- Fine di una Cards e inizio di un'altra -->
 
-      <div class="col-mx-12 col-md-6 col-lg-3">
       <div class="card text-center bpl-card">
         <div class="card-img-top img-background-little" style="background-image: url('foto card 4.jpg');" alt="Card image cap"></div>
         <div class="card-body">
@@ -57,7 +50,6 @@
         </div>
       </div>
     </div>
-  </div>
   </div>
   <hr class="spacer py-1 py-md-4" />
 </section>

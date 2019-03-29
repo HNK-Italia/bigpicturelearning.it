@@ -253,3 +253,12 @@ hr.spacer {
 .tornasu i {
   vertical-align: text-bottom;
 }
+.indexcards {
+  height: 409px;
+  margin-bottom: 30px
+}
+
+.bottonecard{
+  bottom: 20px;
+  transform: translatex(-50%);
+}
