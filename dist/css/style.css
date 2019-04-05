@@ -226,7 +226,6 @@ hr.spacer {
   padding:20px 0;
   margin-bottom: 24px;
   background-color: #1CA554;
-  color: #ffffff;
 }
 
 .section-faq {
@@ -249,6 +248,7 @@ hr.spacer {
   position: fixed;
   bottom: 70px;
   right: 70px;
+  z-index: 9999999999999999999;
 }
 .tornasu i {
   vertical-align: text-bottom;
@@ -261,4 +261,19 @@ hr.spacer {
 .bottonecard{
   bottom: 20px;
   transform: translatex(-50%);
+}
+
+.backgroundgradient{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #ffffff;
+
+  background: rgba(28,165,84,0.93);
+  background: -moz-linear-gradient(top, rgba(28,165,84,0.93) 0%, rgba(0,104,55,0.65) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(28,165,84,0.93)), color-stop(100%, rgba(0,104,55,0.65)));
+  background: -webkit-linear-gradient(top, rgba(28,165,84,0.93) 0%, rgba(0,104,55,0.65) 100%);
+  background: -o-linear-gradient(top, rgba(28,165,84,0.93) 0%, rgba(0,104,55,0.65) 100%);
+  background: -ms-linear-gradient(top, rgba(28,165,84,0.93) 0%, rgba(0,104,55,0.65) 100%);
+  background: linear-gradient(to bottom, rgba(28,165,84,0.93) 0%, rgba(0,104,55,0.65) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ca554', endColorstr='#006837', GradientType=0 );
 }

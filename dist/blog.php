@@ -97,13 +97,14 @@
 
   <!-- Inizio delle cards -->
 
-  <section class="container">
+<section class="backgroundgradient">
+  <div class="container">
   <div class="card-deck container">
     <div class="card text-center bpl-card">
       <div class="card-img-top-blog img-background-little" style="background-image: url('https://picsum.photos/666/444');" alt="Card image cap"></div>
       <div class="card-body">
         <h5 class="card-title">Vecchio post</h5>
-        <a href="#" class="btn btn-link">Continua a leggere</a>
+        <a href="#" class="btn btn-danger">Continua a leggere</a>
       </div>
     </div>
 
@@ -113,7 +114,7 @@
         <div class="card-img-top-blog img-background-little" style="background-image: url('https://picsum.photos/666/444');" alt="Card image cap"></div>
         <div class="card-body">
           <h5 class="card-title">Vecchio post</h5>
-          <a href="#" class="btn btn-link">Continua a leggere</a>
+          <a href="#" class="btn btn-danger">Continua a leggere</a>
         </div>
       </div>
 
@@ -123,11 +124,12 @@
         <div class="card-img-top-blog img-background-little" style="background-image: url('https://picsum.photos/666/444');" alt="Card image cap"></div>
         <div class="card-body">
           <h5 class="card-title">Vecchio post</h5>
-          <a href="#" class="btn btn-link">Continua a leggere</a>
+          <a href="#" class="btn btn-danger">Continua a leggere</a>
         </div>
       </div>
+    </div>
   </div>
-  </section>
+</section>
 
   <hr class="spacer py-1 py-md-4" />
 

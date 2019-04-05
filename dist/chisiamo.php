@@ -54,7 +54,7 @@
 
   <section class="container center">
     <div class="row">
-      <div class="col-7 ventipx">
+      <div class="col-mx-12 col-md-7 ventipx">
         <div class="text-center">
           <h2 style="color: #1CA554">Il nostro team</h2>
           <p>Giovani, motivati e con un obiettivo: istruire ed educare le nuove
@@ -69,8 +69,8 @@
           </p>
         </div>
       </div>
-      <div class="col-5">
-        <img class="img-fluid" src="bpl_italia_logo.png">
+      <div class="col-mx-12 col-md-5">
+        <img class="img-fluid" src="bpl_italia_logo.png" style="padding: 20px;">
       </div>
     </div>
   </section>

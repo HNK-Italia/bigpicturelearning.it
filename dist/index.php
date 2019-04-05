@@ -93,7 +93,7 @@
 
   <!-- Inizio "Evita di contattarci se..." -->
 
-  <section class="container-fluid section-evita">
+  <section class="container-fluid backgroundgradient">
     <section class="container">
     <hr class="spacer py-1 py-md-4" />
     <div class="row">
@@ -113,7 +113,7 @@
       </div>
     </div>
       <div class="col-md-5 text-center">
-        <img src="stop.png" height="100%" width="50%" />
+        <img src="stop.svg" height="100%" width="50%" />
       </div>
     </div>
     <hr class="spacer py-1 py-md-4" />
