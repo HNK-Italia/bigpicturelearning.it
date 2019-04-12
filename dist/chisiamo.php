@@ -77,70 +77,31 @@
 
   <!-- Inizio testo -->
 
-  <section class="hero-chisiamo" style="background: url('https://picsum.photos/1920/1080');background-size: cover; background-position: center center; opacity: 0.5;">
-    <section class="container">
-    <div class="text-center whitegreen">
-      <hr class="spacer py-1 py-md-4" />
-      <h2><span>Chi siamo?</span></h2>
-    </div>
-    <div class="whitegreen text-center">
-      <p><span>Giovani, motivati e con un obiettivo: istruire ed educare le nuove generazione nel rispetto della diversità e nel coltivare la fiducia in sè stessi.
+  <section class="container">
+    <hr class="spacer py-1 py-md-4" />
+      <div class="text-center">
+        <h2 style="color: #1CA554" >Chi siamo?</h2>
+      </div>
+    <div class="text-center">
+      <p>Giovani, motivati e con un obiettivo: istruire ed educare le nuove generazione nel rispetto della diversità e nel coltivare la fiducia in sè stessi.
         Come disse Dannis Littky, co-fondatore di Big Picture Learning:
         "Gli studenti hanno bisogno di sentire che la scuola è un posto dove la loro forza e le
         loro energie sono promosse ed elogiate, dove loro sono considerati come esseri
         umani […]
         Hanno bisogno che la loro scuola e - la loro società - li veda come risorse e non come
         prosciugamento di risorse."
-      </span></p>
+      </p>
     </div>
     <hr class="spacer py-1 py-md-4" />
-  </section>
   </section>
 
   <hr class="spacer py-1 py-md-4" />
 
   <!-- Inizio cards insegnanti -->
 
-  <section class="container mb-5">
-    <div class="center card-deck">
-      <div class="card text-center bpl-card">
-        <div class="bpl-card-img-top img-background-little" style="background: url('foto_davide.JPG'); background-size: cover; background-position: 50% 25%;" alt="Card image cap"></div>
-        <div class="card-body">
-          <h5 class="card-title">Davide Rastello</h5>
-          <p class="card-text">Insegnante di Storia dell'Arte</p>
-        </div>
-      </div>
-
-      <!-- Fine di una card e Inizio di un'altra -->
-
-      <div class="card text-center bpl-card">
-        <div class="bpl-card-img-top img-background-little" style="background: url('foto_giulia.png'); background-size: cover; background-position: 50% 40%;" alt="Card image cap"></div>
-        <div class="card-body">
-          <h5 class="card-title">Giulia Ghisio</h5>
-          <p class="card-text">Insegnante di Italiano</p>
-        </div>
-      </div>
-
-      <!-- Fine di una card e Inizio di un'altra -->
-
-      <div class="card text-center bpl-card">
-        <div class="bpl-card-img-top img-background-little" style="background: url('foto_mattia.png'); background-size: cover; background-position: 50% 50%;" alt="Card image cap"></div>
-        <div class="card-body">
-          <h5 class="card-title">Mattia Callegari</h5>
-          <p class="card-text">Insegnante di Filosofia</p>
-        </div>
-      </div>
-
-  <!-- Fine di una card e Inizio di un'altra -->
-
-      <div class="card text-center bpl-card">
-        <div class="bpl-card-img-top img-background-little" style="background: url('foto_pippo.png'); background-size: cover; background-position: 50% 25%;" alt="Card image cap"></div>
-        <div class="card-body">
-          <h5 class="card-title">Andrea Amico</h5>
-          <p class="card-text">Insegnante di Fisica</p>
-        </div>
-      </div>
-  </section>
+  <?php
+    include 'inc/insegnanti_definitivo.php'
+   ?>
 
   <!-- Inizio Google Maps -->
 

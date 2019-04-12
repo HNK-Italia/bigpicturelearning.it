@@ -7,9 +7,9 @@
           <img src="bpl_italia_logo.png" width="75" height="75" />
         </div>
         <div class="col-6">
-          <img src="instagram_white.svg" height="45px" width="45px" />
-          <img src="facebook_white.svg" height="45px" width="45px" />
-          <img src="twitter_white.svg" height="45px" width="45px" />
+          <img style="margin-right: 3px;" src="instagram_white.svg" height="45px" width="45px" />
+          <img style="margin-left: 3px; margin-right: 3px;" src="facebook_white.svg" height="45px" width="45px" />
+          <img style="margin-left: 3px;" src="twitter_white.svg" height="45px" width="45px" />
         </div>
       </div>
       <hr class="spacer py-1 py-md-1" />

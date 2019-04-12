@@ -9,8 +9,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
   font-weight: 800;
 }
  .infondo {
@@ -184,12 +183,6 @@ hr.spacer {
   background-position: center;
 }
 
-.hero-chisiamo{
-  width: 100%;
-  display: block;
-  position: relative;
-}
-
 .hero-blog{
   height: 60vh;
   width: 100%;
@@ -204,12 +197,13 @@ hr.spacer {
 }
 
 .img-background-little{
-  background-size: cover;
   height: 150px;
+  background-size: cover;
 }
 
 .img-background-big{
   height: 250px;
+  background-size: cover;
 }
 
 .btn-danger:hover{
