@@ -94,30 +94,30 @@
   <!-- Inizio "Evita di contattarci se..." -->
 
   <section class="container-fluid backgroundgradient">
-    <section class="container">
-    <hr class="spacer py-1 py-md-4" />
-    <div class="row">
-      <div class="col-md-7">
-        <h2 class="title-evita">Evita di contattarci se...</h2>
+    <section class="container text-center">
+      <hr class="spacer py-1 py-md-4" />
+        <h2>Evita di contattarci se</h2>
         <div class="row">
-        <div class="col-md-6">
-          <h4 style="padding-bottom: 25px">Cerchi un diplomificio <i class="material-icons" style="color:#dc3545">close</i></h4>
+          <div class="col-md-4">
+            <i class="material-icons" style="color:#ffffff">close</i>
+            <h4 style="padding-bottom: 25px">Cerchi un diplomificio</h4>
+            <h6>Questa è una vera scuola!</h6>
+            <h6>Non si tratta del classico istituto che ti regala il diploma</h6>
+          </div>
+          <div class="col-md-4">
+            <img src="stop.svg" height="100%" width="50%" />
+          </div>
+          <div class="col-md-4">
+            <i class="material-icons" style="color:#ffffff">close</i>
+            <h4 style="padding-bottom: 25px">Cerchi lavoro</h4>
+            <h6>Lo staff è al completo</h6>
+            <h6>Il tempo è denaro:</h6>
+            <h6>evitiamo di perdere tempo entrambi</h6>
+            <h6>Quando si libererà un posto lo scriveremo qui</h6>
+          </div>
         </div>
-        <div class="col-md-6">
-          <h4>Cerchi lavoro <i class="material-icons" style="color:#dc3545">close</i></h4>
-          <p>Lo staff è al completo</p>
-          <p>Il tempo è denaro:</p>
-          <p>evitiamo di perdere tempo entrambi</p>
-          <p>Quando si libererà un posto lo scriveremo qui</p>
-        </div>
-      </div>
-    </div>
-      <div class="col-md-5 text-center">
-        <img src="stop.svg" height="100%" width="50%" />
-      </div>
-    </div>
-    <hr class="spacer py-1 py-md-4" />
-  </section>
+      <hr class="spacer py-1 py-md-4" />
+    </section>
   </section>
 
   <!-- Inizio "Sei un genitore?" -->
