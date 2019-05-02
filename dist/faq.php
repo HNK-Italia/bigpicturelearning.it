@@ -54,7 +54,7 @@
 
   <section class="section-faq">
     <div class="container">
-      <h2>Che tipo di materie vengono svolte?</h2>
+      <h2 style="color: #1CA554;">Che tipo di materie vengono svolte?</h2>
       <p>
         La nostra didattica include le stesse materie definite nei percorsi del MIUR per la scuola secondaria di secondo grado per il conseguimento del diploma.
         I contenuti delle materie seguono le linee guida del MIUR e sono allineati secondo la programmazione specifica della scuola dove verranno sostenuti
@@ -68,9 +68,9 @@
 
     <!-- Fine di una faq e inizio di un'altra -->
 
-    <section class="section-faq section-faq--green">
+    <section class="section-faq">
       <div class="container">
-        <h2>Chi sono gli insegnanti?</h2>
+        <h2 style="color: #1CA554;">Chi sono gli insegnanti?</h2>
         <p>
           Gli insegnati sono professionisti selezionati in base alla loro attitudini educative e didattiche in prima istanza e, in seconda battuta, secondo la conoscenza specifica della materia.
           Nel caso si volesse avere un'idea del processo di selezione degli studenti è sufficiente visitare la pagina dedicata al loro reclutamento: Call fo teachers
@@ -82,7 +82,7 @@
 
     <section class="section-faq">
       <div class="container">
-        <h2>Dovrò sostenere degli esami? Dove dovrò sostenerli?</h2>
+        <h2 style="color: #1CA554;">Dovrò sostenere degli esami? Dove dovrò sostenerli?</h2>
         <p>
           Al fine di conseguire i titoli di studio legalmente riconosciuti dallo Stato, al termine del percorso scolastico annuale tutti i nostri studenti sostengono
           gli esami di idoneità per l'accesso alla classe corrispettiva.
@@ -96,9 +96,9 @@
 
     <!-- Fine di una faq e inizio di un'altra -->
 
-    <section class="section-faq section-faq--green">
+    <section class="section-faq">
       <div class="container">
-        <h2 class="section-faq__title">L’esame ha la stessa validità di quello di un liceo statale?</h2>
+        <h2 style="color: #1CA554;">L’esame ha la stessa validità di quello di un liceo statale?</h2>
           <p class="section-faq__text">
             Certo, in quanto gli esami vengono svolti presso scuole statali o parificate riconosciute e abilitate agli stessi dal Ministero dell'Istruzione.
         </p>
@@ -109,7 +109,7 @@
 
     <section class="section-faq">
       <div class="container">
-        <h2>Avrei la possibilità di fare certificazioni linguistiche?</h2>
+        <h2 style="color: #1CA554;">Avrei la possibilità di fare certificazioni linguistiche?</h2>
         <p>
           Reputiamo le certificazioni linguistiche uno strumento fondamentale nella crescita didattica e personale di ogni ragazzo e ragazza.
           Pertanto costruiamo un percorso personalizzato con i nostri studenti al fine di poter far conseguire loro la miglior certificazione linguistica.
@@ -120,9 +120,9 @@
 
   <!-- Fine di una faq e inizio di un'altra -->
 
-  <section class="section-faq section-faq--green">
+  <section class="section-faq">
     <div class="container">
-      <h2 class="section-faq__title">Quanto costa?</h2>
+      <h2 style="color: #1CA554;">Quanto costa?</h2>
         <p class="section-faq__text">
           Alla famiglia è chiesto un contributo volontario, come per le scuole statali, il cui importo è in fase di definizione.
           Allo stato attuale, stiamo valutando di correlare tale importo al reddito famigliare (ISEE), e dovrebbe attestarsi sugli stessi importi richiesti dal
@@ -135,7 +135,7 @@
 
   <section class="section-faq">
     <div class="container">
-      <h2>Di quale materiale scolastico c'è bisogno?</h2>
+      <h2 style="color: #1CA554;">Di quale materiale scolastico c'è bisogno?</h2>
       <p>
         Consigliamo un Chromebook, perfettamente adatto alla nostra piattaforma G Suite, oppure un portatile discretamente performante.
         I libri necessari per la didattica verranno recuperati nel corso dell'anno secondo le necessità specifiche dello studente, valutando la praticità del testo
@@ -148,9 +148,9 @@
 
 <!-- Fine di una faq e inizio di un'altra -->
 
-<section class="section-faq section-faq--green">
+<section class="section-faq">
   <div class="container">
-    <h2 class="section-faq__title">Come valutate gli studenti?</h2>
+    <h2 style="color: #1CA554;">Come valutate gli studenti?</h2>
       <p class="section-faq__text">
         Nel nostro percorso didattico si intraprende un percorso impegnativo affinché lo studente diventi consapevole delle proprie potenzialità e sia in
         grado di valutarsi correttamente in modo autonomo.

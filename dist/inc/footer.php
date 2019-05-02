@@ -3,25 +3,25 @@
       <hr class="spacer py-4 py-md-4" />
       <div class="container">
       <div class="row">
-        <div class="col-6">
-          <img src="bpl_italia_logo.png" width="75" height="75" />
+        <div class="col-mx-12 col-md-6">
+          <img src="bpl_italia_logo.png" width="75" height="75" style="margin-bottom: 10px" />
         </div>
         <div class="col-6">
-          <img style="margin-right: 3px;" src="instagram_white.svg" height="45px" width="45px" />
-          <img style="margin-left: 3px; margin-right: 3px;" src="facebook_white.svg" height="45px" width="45px" />
-          <img style="margin-left: 3px;" src="twitter_white.svg" height="45px" width="45px" />
+          <a href="http://instagram.com/"><img style="margin-right: 3px;" src="instagram_white.svg" height="45px" width="45px" /></a>
+          <a href="http://facebook.com/"><img style="margin-left: 3px; margin-right: 3px;" src="facebook_white.svg" height="45px" width="45px" /></a>
+          <a href="http://twitter.com/"><img style="margin-left: 3px;" src="twitter_white.svg" height="45px" width="45px" /></a>
         </div>
       </div>
       <hr class="spacer py-1 py-md-1" />
       <div class="row">
-        <div class="col-6">
+        <div class="col-mx-12 col-md-6">
           <address>
             <h6>SEDE LEGALE</h6>
             <p>Via G.B. Serralunga, 27<br  />
             13900 - Biella (Italia)</p>
           </address>
         </div>
-        <div class="col-6">
+        <div class="col-mx-12 col-md-6">
           <address>
             <h6>SEDE OPERATIVA</h6>
             <p>c/o SELLALAB<br />
@@ -31,10 +31,10 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-6">
+        <div class="col-mx-12 col-md-6">
           <p>© 2019 All rights reserved Big Picture Learning Italia | P.I. 02579780020 </p>
         </div>
-        <div class="col-6">
+        <div class="col-mx-12 col-md-6">
           <a type="button" class="btn btn-dark" href="faq.php">
             Privacy Policy
           </a>
